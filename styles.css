@@ -13,7 +13,7 @@
     border: 0.5rem solid;
     border-radius: 1rem;
     border-color: white;
-    width: fixed;
+    position: center;
 }
 
 #measurementID {

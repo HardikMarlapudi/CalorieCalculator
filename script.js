@@ -17,9 +17,8 @@ function calculate() {
         output = output + 5;
     } else if (gender == "female") {
         output = output - 161;
-    } else {
-        gender == "Prefer not to say";
-        return;
+    } else if (gender == "Prefer not to say") {
+        output = output + 0;
     }
 
     document.getElementById("outputDetails").innerHTML = `Your estimated daily calorie needs: ${output} calories`;
