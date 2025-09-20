@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CalorieCalculator</title>
+</head>
+<body>
+    <h2 id="title">Calorie Calculator</h2>
+
+    <div class="wholeProgram">
+
+    <p id="gender">gender: </p>
+    <center>
+    <select id="genderInput">
+        <option></option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Prefer not to say</option>
+    </select>
+    </center>
+
+    <p id="age">age: </p>
+    <center><input type="number" id="ageInput" required></center>
+
+    <p id="height">height: </p>
+    <center><input type="number" id="heightInput" required></center>
+
+    <p id="weight">weight: </p>
+    <center><input type="number" id="weightInput" required></center>
+
+    <center><br><button id="calculate" onclick="calculate()">Calculate</button>
+        <center><br><button id="reset" onclick="reset()">Reset</button></center>
+
+        <h4 id="outputDetails">Testing</h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

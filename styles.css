@@ -1,0 +1,158 @@
+* {
+    background-color: rgb(108, 37, 194);
+}
+
+#title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.wholeProgram {
+    border: 0.5rem solid;
+    border-radius: 1rem;
+    border-color: white;
+    width: fixed;
+}
+
+#measurementID {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#metricID {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#metric {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imperial {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gender {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+#genderInput {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+    padding: 10px 75px;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+#weight {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.3rem;
+}
+
+#weightInput {
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+    padding: 10px 80px;
+    font-size: 15px;
+    margin: 0.3rem;
+    color: white;
+}
+
+#age {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+#ageInput {
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+    padding: 10px 80px;
+    font-size: 15px;
+    margin: 0.3rem;
+    text-align: center;
+    color: white;
+}
+
+#height {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+#heightInput {
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+    padding: 10px 80px;
+    font-size: 15px;
+    margin: 0.3rem;
+    text-align: center;
+    color: white;
+}
+
+#weight {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.3rem;
+    text-align: center;
+}
+
+#weightInput {
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+    padding: 10px 80px;
+    font-size: 15px;
+    margin: 0.3rem;
+    text-align: center;
+    color: white;
+}
+
+#calculate {
+    background-color:azure;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 25px;
+    padding: 5px 120px;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+#reset {
+    background-color:azure;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 25px;
+    padding: 5px 140px;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+#outputDetails {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
