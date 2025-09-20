@@ -13,12 +13,15 @@ function calculate() {
 
     output = (10 * weight) + (6.25 * height) - (5 * age);
 
-    if (gender == "male") {
+    if (gender == "Male") {
         output = output + 5;
-    } else if (gender == "female") {
+    } else if (gender == "Female") {
         output = output - 161;
     } else if (gender == "Prefer not to say") {
-        output = output + 0;
+       output = output + 0;
+    } else {
+        alert("Please enter a gender.");
+        return;
     }
 
     document.getElementById("outputDetails").innerHTML = `Your estimated daily calorie needs: ${output} calories`;
