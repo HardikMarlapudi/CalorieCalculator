@@ -9,11 +9,19 @@
     color: white;
 }
 
+#about {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 .wholeProgram {
     border: 0.5rem solid;
     border-radius: 1rem;
     border-color: white;
-    position: center;
+    padding: auto;
+    position: auto;
 }
 
 #measurementID {

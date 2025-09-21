@@ -1,8 +1,8 @@
-document.getElementById("genderInput").value;
-document.getElementById("ageInput").value;
-document.getElementById("heightInput").value;
-document.getElementById("weightInput").value;
-document.getElementById("outputDetails").innerHTML;
+document.getElementById("genderInput");
+document.getElementById("ageInput");
+document.getElementById("heightInput");
+document.getElementById("weightInput");
+document.getElementById("outputDetails");
 
 function calculate() {
     let output = document.getElementById("outputDetails").innerHTML;
@@ -18,9 +18,14 @@ function calculate() {
     } else if (gender == "Female") {
         output = output - 161;
     } else if (gender == "Prefer not to say") {
-       output = output + 0;
+        output = output + 0;
     } else {
-        alert("Please enter a gender.");
+        alert ("Please select a gender");
+        return;
+    }
+
+    if(gender == "" || age == "" || height == "" || weight == "") {
+        alert("Please fill out all of the fields");
         return;
     }
 
