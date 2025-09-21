@@ -1,161 +1,67 @@
 * {
     background-color: rgb(108, 37, 194);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#title, #about {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 #title {
-    text-align: center;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    margin-top: 1rem;
 }
 
 #about {
-    text-align: center;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    margin-bottom: 1rem;
 }
 
 .wholeProgram {
-    border: 0.5rem solid;
+    border: 0.5rem solid white;
     border-radius: 1rem;
-    border-color: white;
-    padding: auto;
-    position: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    position: relative;
 }
 
-#measurementID {
+#measurementID, #metricID, #metric, #imperial, #gender, #weight, #age, #height {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0.3rem;
+    text-align: center;
     font-weight: bold;
-    color: white;
 }
 
-#metricID {
+#genderInput, #weightInput, #ageInput, #heightInput {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-}
-
-#metric {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#imperial {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#gender {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.3rem;
-    text-align: center;
-}
-
-#genderInput {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0.5px solid;
-    border-radius: 0.5rem;
-    padding: 10px 75px;
-    margin: 0.3rem;
-    cursor: pointer;
-}
-
-#weight {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.3rem;
-}
-
-#weightInput {
-    border: 0.5px solid;
+    background-color: transparent;
+    border: 0.5px solid white;
     border-radius: 0.5rem;
     padding: 10px 80px;
-    font-size: 15px;
-    margin: 0.3rem;
-    color: white;
-}
-
-#age {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.3rem;
+    margin: 0.3rem auto;
+    display: block;
     text-align: center;
 }
 
-#ageInput {
-    border: 0.5px solid;
-    border-radius: 0.5rem;
-    padding: 10px 80px;
-    font-size: 15px;
-    margin: 0.3rem;
-    text-align: center;
-    color: white;
-}
-
-#height {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.3rem;
-    text-align: center;
-}
-
-#heightInput {
-    border: 0.5px solid;
-    border-radius: 0.5rem;
-    padding: 10px 80px;
-    font-size: 15px;
-    margin: 0.3rem;
-    text-align: center;
-    color: white;
-}
-
-#weight {
-    color: white;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.3rem;
-    text-align: center;
-}
-
-#weightInput {
-    border-radius: 0.5rem;
-    padding: 10px 80px;
-    font-size: 15px;
-    margin: 0.3rem;
-    text-align: center;
-    color: white;
-}
-
-#calculate {
-    background-color:azure;
+#calculate, #reset {
+    background-color: azure;
     border: none;
     border-radius: 0.5rem;
     font-size: 25px;
     padding: 5px 120px;
-    margin: 0.3rem;
+    margin: 0.3rem auto;
     cursor: pointer;
-}
-
-#reset {
-    background-color:azure;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 25px;
-    padding: 5px 140px;
-    margin: 0.3rem;
-    cursor: pointer;
+    display: block;
+    text-align: center;
 }
 
 #outputDetails {
@@ -163,4 +69,23 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+input:focus, button:focus {
+    outline: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+    #genderInput, #weightInput, #ageInput, #heightInput {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    #calculate, #reset {
+        padding: 5px 60px;
+        font-size: 20px;
+    }
 }
