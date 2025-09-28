@@ -40,7 +40,7 @@
     font-weight: bold;
 }
 
-#genderInput, #weightInput, #ageInput, #heightInput {
+#genderInput, #ageInput, #weightInput, #heightInput {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -58,7 +58,7 @@
     border: none;
     border-radius: 0.5rem;
     font-size: 25px;
-    padding: 5px 120px;
+    padding: 5px 110px;
     margin: 0.3rem auto;
     cursor: pointer;
     display: block;
@@ -67,7 +67,6 @@
 
 #outputDetails {
     font-size: 20px;
-    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
